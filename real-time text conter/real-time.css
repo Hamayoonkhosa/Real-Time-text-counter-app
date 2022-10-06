@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container{
+    border: solid black;
+    width: 30%;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container h1{
+    padding-left: 14%;
+    color: lightgreen;
+}
+.text-area{
+    height: 150px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+    resize: none;
+    border: solid silver;
+}
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font:bold;
+    color: rgb(44, 15, 15);
+}
+.counter-container .total-char{
+    color: blue;
+}
+.remain-char{
+    color: red;
+}
